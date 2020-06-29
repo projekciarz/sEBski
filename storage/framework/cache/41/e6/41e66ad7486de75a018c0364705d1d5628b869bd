@@ -1,0 +1,759 @@
+1593463402a:1:{s:9:"index.htm";a:5:{s:8:"fileName";s:9:"index.htm";s:7:"content";s:13371:"<!DOCTYPE html>
+<html lang="pl" class="no-js">
+	<head>
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Favicon-->
+		<link rel="shortcut icon" href="img/fav.png">
+		<!-- Meta Description -->
+		<meta name="description" content="Projektowanie stron internetowych">
+		<!-- Meta Keyword -->
+		<meta name="keywords" content="strony www, strona wizytówka, prosta strona www">
+		<!-- meta character set -->
+		<meta charset="UTF-8">
+		<!-- Site Title -->
+		<title>sEBski | Strony internetowe</title>
+		<script src="{{ 'assets/js/theater.min.js'|theme }}" type="text/javascript"></script>
+		
+		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css'>
+		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css'>
+		<link href="https://fonts.googleapis.com/css?family=Courier+Prime:700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Courier+Prime&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+		<!--
+		CSS
+		============================================= -->
+		<link rel="stylesheet" href="{{ 'assets/css/linearicons.css'|theme }}">
+		<link rel="stylesheet" href="{{ 'assets/css/font-awesome.min.css'|theme }}">
+		<link rel="stylesheet" href="{{ 'assets/css/bootstrap.css'|theme }}">
+		<link rel="stylesheet" href="{{ 'assets/css/magnific-popup.css'|theme }}">
+		<link rel="stylesheet" href="{{ 'assets/css/nice-select.css'|theme }}">
+		<link rel="stylesheet" href="{{ 'assets/css/animate.min.css'|theme }}">
+		<link rel="stylesheet" href="{{ 'assets/css/owl.carousel.css'|theme }}">
+		<link rel="stylesheet" href="{{ 'assets/css/sebski-main.css'|theme }}">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<style type="text/css" media="screen">
+			html{
+				overflow-x: hidden;
+			}
+			.actor{
+				padding: 25px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<!-- header -->
+		<header id="header" id="home">
+			{% partial 'site/header' %}
+		</header>
+		<!-- endheader -->
+		<!-- start banner Area -->
+		<section class="banner-area" id="home" style=" height: 100vh; font-family: 'Courier Prime', monospace; font-size: 25px;">
+			<div class="container">
+				<div class="row fullscreen d-flex align-items-center justify-content-center" >
+					<div class="banner-content col-lg-7">
+						<main class="scene">
+							<div class="actor">
+								<div class="actor">
+									<div class="actor__prefix"></div>
+									<div id="sebski" class="actor__content"></div>
+								</div>
+								
+								<div class="actor__prefix"></div>
+								<div id="vader" class="actor__content"></div>
+								<br>
+							</div>
+							<div class="actor" style="font-size: 20px;">
+								<div class="actor__prefix"></div>
+								<div id="luke" class="actor__content"></div>
+							</div>
+							<br>
+						</main>
+					</main>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="projects">
+		<div class="row d-flex justify-content-center">
+			<div class="menu-content pb-60 col-lg-10">
+				<div class="title text-center">
+					<h1 class="mb-10">Realizacje</h1>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-lg-3 col-md-3">
+					<center>
+					<p class="top-title"><a href="https://www.suwalki.online" title="suwalki.online" target="_blank">www.suwalki.online</a></p>
+					</center>
+					<p><span>Projekt na eatpie ciągłego udoskonalania i dodawania nowych funkcjonalności.</span></p>
+					<p>
+						Osoby z ciekawymi pomysłami zapraszam tutaj.
+					</p>
+				</div>
+				<div class="col-lg-8 col-md-8">
+					<div class="no-padding about-right">
+						<a href="{{'assets/img/suwalki_online_1.png' | theme}}" data-toggle="lightbox" data-gallery="gallery">
+							<img class="img-fluid" src="{{'assets/img/suwalki_online_1.png' | theme}}" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-8 col-md-8">
+					<div class="no-padding about-right">
+						<a href="{{'assets/img/navi-star.png' | theme}}" data-toggle="lightbox" data-gallery="gallery">
+							<img class="img-fluid" src="{{'assets/img/navi-star.png' | theme}}" alt="">
+						</a>
+					</div>
+				</div>
+				
+				<div class="col-lg-3 col-md-3">
+					<center>
+					<p class="top-title">
+						<a href="https://www.navi-star.pl" title="navi.star" target="_blank">
+							www.navi-star.pl
+						</a>
+					</p>
+					</center>
+					<p><span>
+						Navistar to licencjonowana firma przewozowa
+						świadcząca usługi w wysokim standardzie i
+						atrakcyjnej cenie.
+					</span></p>
+					<p>
+						Osoby z ciekawymi pomysłami zapraszam tutaj.
+					</p>
+				</div>
+				
+			</div>
+		</div>
+		
+	</section>
+	
+	
+	<section class="we-offer-area section-gap" id="offer">
+		<div class="container">
+			<div class="row d-flex justify-content-center">
+				<div class="menu-content pb-60 col-lg-10">
+					<div class="title text-center">
+						<h1 class="mb-10">Czego używam?</h1>
+						<p>Krótki opis jak działam</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="single-offer d-flex flex-row pb-30">
+						<div class="icon">
+							<img src="{{'assets/img/logo-ovh.png' | theme}}" alt="">
+						</div>
+						<div class="desc">
+							<h4>Serwery OVH</h4>
+							<p>
+								Korzystamy wyłącznie z serwerów
+								<a href="https://www.ovh.pl/" title="OVH" target="_blank">OVH.</a>
+								W ofercie możemy znaleźć serwery dedykowane, hosting i domeny.
+								Dla każdego naszego klienta przygotowaliśmy miejsce na naszym serwerze z ochroną Anty-DDoS.
+							</p>
+						</div>
+					</div>
+					<div class="single-offer d-flex flex-row pb-30">
+						<div class="icon">
+							<img src="{{'assets/img/laravel.png' | theme}}" alt="">
+						</div>
+						<div class="desc">
+							<h4>Laravel</h4>
+							<p>
+								Nasze projekty tworzymy w Laravel, jest to framework do aplikacji internetowych napisany w języku PHP bazujący na wzorcu architektonicznym Model-View-Controller.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="single-offer d-flex flex-row pb-30">
+						<div class="icon">
+							<img src="{{'assets/img/cloud.png' | theme}}" alt="">
+						</div>
+						<div class="desc">
+							<h4>Cloudflare</h4>
+							<p>
+								Dodatkowo do dla każdego klienta konfigurujemy połączenie z Cloudflare.
+								Co to jest i jak działa Cloudflare? Wszystko jest dobrze opisane przez pana Wojtka <a href="https://wojciechpietrzak.com.pl/cloudflare/" title="cloudflare" target="_blank">tutaj</a>
+							</p>
+						</div>
+					</div>
+					<div class="single-offer d-flex flex-row pb-30">
+						<div class="icon">
+							<img src="{{'assets/img/colorlib.png' | theme }}" alt="">
+						</div>
+						<div class="desc">
+							<h4>Themes Colorlib</h4>
+							<p>
+								Colorlib posiada ogromną bazę darmowych i płatnych templatek. <a href="https://colorlib.com/wp/templates/" title="colorlib" target="_blank">Tutaj</a> możemy zobaczyć przykładowe DARMOWE templatki od Colorlib. Zapraszam do przejrzenia.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	
+	<!-- Start price Area -->
+	<section class="price-area section-gap" id="price">
+		<div class="container">
+			<div class="row d-flex justify-content-center">
+				<div class="menu-content pb-60 col-lg-8">
+					<div class="title text-center">
+						<h1 class="mb-10">Wybierz idealny plan dla siebie</h1>
+						<p>Who are in extremely love with eco friendly system.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="single-price">
+						<div class="top-sec d-flex justify-content-between">
+							<div class="top-left">
+								<h4>Business</h4>
+								<p>Opłata jednorazowa</p>
+							</div>
+							<div class="top-right">
+								<h1>1000zł</h1>
+							</div>
+						</div>
+						<div class="bottom-sec">
+							<p>
+								Gotowa w 14 dni
+							</p>
+						</div>
+						<div class="end-sec">
+							<ul>
+								<li>Kompletna strona WWW</li>
+								<li>Konfiguracja certyfikatu SSL</li>
+								<li>20GB Przestrzeni dyskowej</li>
+								<li>5 Kont e-mail</li>
+								<li><s>Wsparcie prze okres umowy</s></li>
+							</ul>
+							<button class="primary-btn price-btn mt-20">Wybieram</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="single-price">
+						<div class="top-sec d-flex justify-content-between">
+							<div class="top-left">
+								<h4>Standard</h4>
+								<p>Opłata miesięczna</p>
+							</div>
+							<div class="top-right">
+								<h1>100zł</h1>
+							</div>
+						</div>
+						<div class="bottom-sec">
+							<p>
+								Gotowa w 14 dni
+							</p>
+						</div>
+						<div class="end-sec">
+							<ul>
+								<li>Kompletna strona WWW</li>
+								<li>Konfiguracja certyfikatu SSL</li>
+								<li>20GB Przestrzeni dyskowej</li>
+								<li>5 Kont e-mail</li>
+								<li>Wsparcie prze okres umowy</li>
+							</ul>
+							<button class="primary-btn price-btn mt-20">Wybieram</button>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-4">
+					<div class="single-price">
+						<div class="top-sec d-flex justify-content-between">
+							<div class="top-left">
+								<h4>Godzina</h4>
+								<p>Cena za godzinę pracy</p>
+							</div>
+							<div class="top-right">
+								<h1>50zł</h1>
+							</div>
+						</div>
+						<div class="bottom-sec">
+							<p>
+								<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="34475156475f5d1a5f5b5a40555f40745359555d581a575b59">[email&#160;protected]</a>
+							</p>
+						</div>
+						<div class="end-sec">
+							<ul>
+								<li>Konfiguracja SSL</li>
+								<li>Optymalizacja strony</li>
+								<li>Ustawienia DNS</li>
+								<li>Konfiguracja VPS</li>
+								<li>Długoterminowa wpsółpraca</li>
+							</ul>
+							<button class="primary-btn price-btn mt-20">Wybieram</button>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	<!-- End price Area -->
+	<!-- Start callto-action Area -->
+	<section class="callto-action-area relative section-gap">
+		<div class="overlay overlay-bg"></div>
+		<div class="container">
+			<div class="row d-flex justify-content-center">
+				<div class="menu-content col-lg-9">
+					<div class="title text-center">
+						<h1 class="mb-10 text-white">Zainwestuj w swój biznes i bądź Online razem z nami.</h1>
+						<p class="text-white">Skontaktuj się ze mną a w szybki i łatwy sposób pokażesz swój biznes w sieci. </p>
+						<a class="primary-btn" href="mailto:sebski.kontakt@gmail.com">sebski.kontakt@gmail.com</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End calto-action Area -->
+
+	
+	<!-- start footer Area -->
+	<footer id="layout-footer">
+		{% partial 'site/footer' %}
+	</footer>
+	<!-- End footer Area -->
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js'></script>
+	<script>
+		$(document).on("click", '[data-toggle="lightbox"]', function(event) {
+			event.preventDefault();
+			$(this).ekkoLightbox();
+	});
+	</script>
+	<script>
+
+	var theater = theaterJS()
+	theater
+	.on('type:start, erase:start', function () {
+	theater.getCurrentActor().$element.classList.add('actor__content--typing')
+	})
+	.on('type:end, erase:end', function () {
+	theater.getCurrentActor().$element.classList.remove('actor__content--typing')
+	})
+	.on('type:start, erase:start', function () {
+	if (theater.getCurrentActor().name === 'sebski') {
+	document.body.classList.add('dark')
+	}
+	})
+	theater
+	.addActor('vader', { speed: 1 })
+	.addActor('luke')
+	.addActor('sebski', { speed: 1 })
+	.addScene('sebski:sEBski')
+	.addScene('vader:Sebastian Laskowski')
+			.addScene('luke:sebski.kontakt@gmail.com')
+	.addScene();
+	</script>
+	<!-- partial -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="{{ 'assets/js/vendor/bootstrap.min.js'|theme }}"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+	<script src="{{ 'assets/js/easing.min.js'|theme }}"></script>
+	<script src="{{ 'assets/js/hoverIntent.js'|theme }}"></script>
+	<script src="{{ 'assets/js/superfish.min.js'|theme }}"></script>
+	<script src="{{ 'assets/js/jquery.ajaxchimp.min.js'|theme }}"></script>
+	<script src="{{ 'assets/js/jquery.magnific-popup.min.js'|theme }}"></script>
+	<script src="{{ 'assets/js/owl.carousel.min.js'|theme }}"></script>
+	<script src="{{ 'assets/js/jquery.sticky.js'|theme }}"></script>
+	<script src="{{ 'assets/js/jquery.nice-select.min.js'|theme }}"></script>
+	<script src="{{ 'assets/js/parallax.min.js'|theme }}"></script>
+	<script src="{{ 'assets/js/mail-script.js'|theme }}"></script>
+	<script src="{{ 'assets/js/main.js'|theme }}"></script>
+</body>
+</html>";s:5:"mtime";i:1593462798;s:6:"markup";s:13371:"<!DOCTYPE html>
+<html lang="pl" class="no-js">
+	<head>
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Favicon-->
+		<link rel="shortcut icon" href="img/fav.png">
+		<!-- Meta Description -->
+		<meta name="description" content="Projektowanie stron internetowych">
+		<!-- Meta Keyword -->
+		<meta name="keywords" content="strony www, strona wizytówka, prosta strona www">
+		<!-- meta character set -->
+		<meta charset="UTF-8">
+		<!-- Site Title -->
+		<title>sEBski | Strony internetowe</title>
+		<script src="{{ 'assets/js/theater.min.js'|theme }}" type="text/javascript"></script>
+		
+		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css'>
+		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css'>
+		<link href="https://fonts.googleapis.com/css?family=Courier+Prime:700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Courier+Prime&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+		<!--
+		CSS
+		============================================= -->
+		<link rel="stylesheet" href="{{ 'assets/css/linearicons.css'|theme }}">
+		<link rel="stylesheet" href="{{ 'assets/css/font-awesome.min.css'|theme }}">
+		<link rel="stylesheet" href="{{ 'assets/css/bootstrap.css'|theme }}">
+		<link rel="stylesheet" href="{{ 'assets/css/magnific-popup.css'|theme }}">
+		<link rel="stylesheet" href="{{ 'assets/css/nice-select.css'|theme }}">
+		<link rel="stylesheet" href="{{ 'assets/css/animate.min.css'|theme }}">
+		<link rel="stylesheet" href="{{ 'assets/css/owl.carousel.css'|theme }}">
+		<link rel="stylesheet" href="{{ 'assets/css/sebski-main.css'|theme }}">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<style type="text/css" media="screen">
+			html{
+				overflow-x: hidden;
+			}
+			.actor{
+				padding: 25px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<!-- header -->
+		<header id="header" id="home">
+			{% partial 'site/header' %}
+		</header>
+		<!-- endheader -->
+		<!-- start banner Area -->
+		<section class="banner-area" id="home" style=" height: 100vh; font-family: 'Courier Prime', monospace; font-size: 25px;">
+			<div class="container">
+				<div class="row fullscreen d-flex align-items-center justify-content-center" >
+					<div class="banner-content col-lg-7">
+						<main class="scene">
+							<div class="actor">
+								<div class="actor">
+									<div class="actor__prefix"></div>
+									<div id="sebski" class="actor__content"></div>
+								</div>
+								
+								<div class="actor__prefix"></div>
+								<div id="vader" class="actor__content"></div>
+								<br>
+							</div>
+							<div class="actor" style="font-size: 20px;">
+								<div class="actor__prefix"></div>
+								<div id="luke" class="actor__content"></div>
+							</div>
+							<br>
+						</main>
+					</main>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="projects">
+		<div class="row d-flex justify-content-center">
+			<div class="menu-content pb-60 col-lg-10">
+				<div class="title text-center">
+					<h1 class="mb-10">Realizacje</h1>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-lg-3 col-md-3">
+					<center>
+					<p class="top-title"><a href="https://www.suwalki.online" title="suwalki.online" target="_blank">www.suwalki.online</a></p>
+					</center>
+					<p><span>Projekt na eatpie ciągłego udoskonalania i dodawania nowych funkcjonalności.</span></p>
+					<p>
+						Osoby z ciekawymi pomysłami zapraszam tutaj.
+					</p>
+				</div>
+				<div class="col-lg-8 col-md-8">
+					<div class="no-padding about-right">
+						<a href="{{'assets/img/suwalki_online_1.png' | theme}}" data-toggle="lightbox" data-gallery="gallery">
+							<img class="img-fluid" src="{{'assets/img/suwalki_online_1.png' | theme}}" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-8 col-md-8">
+					<div class="no-padding about-right">
+						<a href="{{'assets/img/navi-star.png' | theme}}" data-toggle="lightbox" data-gallery="gallery">
+							<img class="img-fluid" src="{{'assets/img/navi-star.png' | theme}}" alt="">
+						</a>
+					</div>
+				</div>
+				
+				<div class="col-lg-3 col-md-3">
+					<center>
+					<p class="top-title">
+						<a href="https://www.navi-star.pl" title="navi.star" target="_blank">
+							www.navi-star.pl
+						</a>
+					</p>
+					</center>
+					<p><span>
+						Navistar to licencjonowana firma przewozowa
+						świadcząca usługi w wysokim standardzie i
+						atrakcyjnej cenie.
+					</span></p>
+					<p>
+						Osoby z ciekawymi pomysłami zapraszam tutaj.
+					</p>
+				</div>
+				
+			</div>
+		</div>
+		
+	</section>
+	
+	
+	<section class="we-offer-area section-gap" id="offer">
+		<div class="container">
+			<div class="row d-flex justify-content-center">
+				<div class="menu-content pb-60 col-lg-10">
+					<div class="title text-center">
+						<h1 class="mb-10">Czego używam?</h1>
+						<p>Krótki opis jak działam</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="single-offer d-flex flex-row pb-30">
+						<div class="icon">
+							<img src="{{'assets/img/logo-ovh.png' | theme}}" alt="">
+						</div>
+						<div class="desc">
+							<h4>Serwery OVH</h4>
+							<p>
+								Korzystamy wyłącznie z serwerów
+								<a href="https://www.ovh.pl/" title="OVH" target="_blank">OVH.</a>
+								W ofercie możemy znaleźć serwery dedykowane, hosting i domeny.
+								Dla każdego naszego klienta przygotowaliśmy miejsce na naszym serwerze z ochroną Anty-DDoS.
+							</p>
+						</div>
+					</div>
+					<div class="single-offer d-flex flex-row pb-30">
+						<div class="icon">
+							<img src="{{'assets/img/laravel.png' | theme}}" alt="">
+						</div>
+						<div class="desc">
+							<h4>Laravel</h4>
+							<p>
+								Nasze projekty tworzymy w Laravel, jest to framework do aplikacji internetowych napisany w języku PHP bazujący na wzorcu architektonicznym Model-View-Controller.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="single-offer d-flex flex-row pb-30">
+						<div class="icon">
+							<img src="{{'assets/img/cloud.png' | theme}}" alt="">
+						</div>
+						<div class="desc">
+							<h4>Cloudflare</h4>
+							<p>
+								Dodatkowo do dla każdego klienta konfigurujemy połączenie z Cloudflare.
+								Co to jest i jak działa Cloudflare? Wszystko jest dobrze opisane przez pana Wojtka <a href="https://wojciechpietrzak.com.pl/cloudflare/" title="cloudflare" target="_blank">tutaj</a>
+							</p>
+						</div>
+					</div>
+					<div class="single-offer d-flex flex-row pb-30">
+						<div class="icon">
+							<img src="{{'assets/img/colorlib.png' | theme }}" alt="">
+						</div>
+						<div class="desc">
+							<h4>Themes Colorlib</h4>
+							<p>
+								Colorlib posiada ogromną bazę darmowych i płatnych templatek. <a href="https://colorlib.com/wp/templates/" title="colorlib" target="_blank">Tutaj</a> możemy zobaczyć przykładowe DARMOWE templatki od Colorlib. Zapraszam do przejrzenia.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	
+	<!-- Start price Area -->
+	<section class="price-area section-gap" id="price">
+		<div class="container">
+			<div class="row d-flex justify-content-center">
+				<div class="menu-content pb-60 col-lg-8">
+					<div class="title text-center">
+						<h1 class="mb-10">Wybierz idealny plan dla siebie</h1>
+						<p>Who are in extremely love with eco friendly system.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="single-price">
+						<div class="top-sec d-flex justify-content-between">
+							<div class="top-left">
+								<h4>Business</h4>
+								<p>Opłata jednorazowa</p>
+							</div>
+							<div class="top-right">
+								<h1>1000zł</h1>
+							</div>
+						</div>
+						<div class="bottom-sec">
+							<p>
+								Gotowa w 14 dni
+							</p>
+						</div>
+						<div class="end-sec">
+							<ul>
+								<li>Kompletna strona WWW</li>
+								<li>Konfiguracja certyfikatu SSL</li>
+								<li>20GB Przestrzeni dyskowej</li>
+								<li>5 Kont e-mail</li>
+								<li><s>Wsparcie prze okres umowy</s></li>
+							</ul>
+							<button class="primary-btn price-btn mt-20">Wybieram</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="single-price">
+						<div class="top-sec d-flex justify-content-between">
+							<div class="top-left">
+								<h4>Standard</h4>
+								<p>Opłata miesięczna</p>
+							</div>
+							<div class="top-right">
+								<h1>100zł</h1>
+							</div>
+						</div>
+						<div class="bottom-sec">
+							<p>
+								Gotowa w 14 dni
+							</p>
+						</div>
+						<div class="end-sec">
+							<ul>
+								<li>Kompletna strona WWW</li>
+								<li>Konfiguracja certyfikatu SSL</li>
+								<li>20GB Przestrzeni dyskowej</li>
+								<li>5 Kont e-mail</li>
+								<li>Wsparcie prze okres umowy</li>
+							</ul>
+							<button class="primary-btn price-btn mt-20">Wybieram</button>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-4">
+					<div class="single-price">
+						<div class="top-sec d-flex justify-content-between">
+							<div class="top-left">
+								<h4>Godzina</h4>
+								<p>Cena za godzinę pracy</p>
+							</div>
+							<div class="top-right">
+								<h1>50zł</h1>
+							</div>
+						</div>
+						<div class="bottom-sec">
+							<p>
+								<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="34475156475f5d1a5f5b5a40555f40745359555d581a575b59">[email&#160;protected]</a>
+							</p>
+						</div>
+						<div class="end-sec">
+							<ul>
+								<li>Konfiguracja SSL</li>
+								<li>Optymalizacja strony</li>
+								<li>Ustawienia DNS</li>
+								<li>Konfiguracja VPS</li>
+								<li>Długoterminowa wpsółpraca</li>
+							</ul>
+							<button class="primary-btn price-btn mt-20">Wybieram</button>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	<!-- End price Area -->
+	<!-- Start callto-action Area -->
+	<section class="callto-action-area relative section-gap">
+		<div class="overlay overlay-bg"></div>
+		<div class="container">
+			<div class="row d-flex justify-content-center">
+				<div class="menu-content col-lg-9">
+					<div class="title text-center">
+						<h1 class="mb-10 text-white">Zainwestuj w swój biznes i bądź Online razem z nami.</h1>
+						<p class="text-white">Skontaktuj się ze mną a w szybki i łatwy sposób pokażesz swój biznes w sieci. </p>
+						<a class="primary-btn" href="mailto:sebski.kontakt@gmail.com">sebski.kontakt@gmail.com</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End calto-action Area -->
+
+	
+	<!-- start footer Area -->
+	<footer id="layout-footer">
+		{% partial 'site/footer' %}
+	</footer>
+	<!-- End footer Area -->
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js'></script>
+	<script>
+		$(document).on("click", '[data-toggle="lightbox"]', function(event) {
+			event.preventDefault();
+			$(this).ekkoLightbox();
+	});
+	</script>
+	<script>
+
+	var theater = theaterJS()
+	theater
+	.on('type:start, erase:start', function () {
+	theater.getCurrentActor().$element.classList.add('actor__content--typing')
+	})
+	.on('type:end, erase:end', function () {
+	theater.getCurrentActor().$element.classList.remove('actor__content--typing')
+	})
+	.on('type:start, erase:start', function () {
+	if (theater.getCurrentActor().name === 'sebski') {
+	document.body.classList.add('dark')
+	}
+	})
+	theater
+	.addActor('vader', { speed: 1 })
+	.addActor('luke')
+	.addActor('sebski', { speed: 1 })
+	.addScene('sebski:sEBski')
+	.addScene('vader:Sebastian Laskowski')
+			.addScene('luke:sebski.kontakt@gmail.com')
+	.addScene();
+	</script>
+	<!-- partial -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="{{ 'assets/js/vendor/bootstrap.min.js'|theme }}"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+	<script src="{{ 'assets/js/easing.min.js'|theme }}"></script>
+	<script src="{{ 'assets/js/hoverIntent.js'|theme }}"></script>
+	<script src="{{ 'assets/js/superfish.min.js'|theme }}"></script>
+	<script src="{{ 'assets/js/jquery.ajaxchimp.min.js'|theme }}"></script>
+	<script src="{{ 'assets/js/jquery.magnific-popup.min.js'|theme }}"></script>
+	<script src="{{ 'assets/js/owl.carousel.min.js'|theme }}"></script>
+	<script src="{{ 'assets/js/jquery.sticky.js'|theme }}"></script>
+	<script src="{{ 'assets/js/jquery.nice-select.min.js'|theme }}"></script>
+	<script src="{{ 'assets/js/parallax.min.js'|theme }}"></script>
+	<script src="{{ 'assets/js/mail-script.js'|theme }}"></script>
+	<script src="{{ 'assets/js/main.js'|theme }}"></script>
+</body>
+</html>";s:4:"code";N;}}
